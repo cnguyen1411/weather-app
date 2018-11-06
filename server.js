@@ -17,7 +17,7 @@ app.set('view engine', 'hbs');
 
 
 
-app.route('/weather')
+app.route('/')
     .get((req,res) => {
         res.render('weather.hbs');
     })
