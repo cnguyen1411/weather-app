@@ -1,6 +1,29 @@
-<p>Address: {{address}}</p>
-<p>Currently: {{temperature}}</p>
-<p>Feels like: {{apparentTemperature}}</p>
-<p>Outside: {{summary}}</p>
+<html lang="en" class="">
 
-<a href="/" type="button">Click here to getback</a>
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="container">
+  <form id="contact" action="/">
+    <h3>Weather Tracking</h3>
+    <h4>By Chien Nguyen</h4>
+    <fieldset>
+      <p>Address: {{address}}</p>
+    </fieldset>
+    <fieldset>
+      <p>Currently: {{temperature}}</p> 
+    </fieldset>
+    <fieldset>
+      <p>Feels like: {{apparentTemperature}}</p>
+    </fieldset>
+    <fieldset>
+      <p>Outside: {{summary}}</p>
+    </fieldset>
+    <fieldset>
+      <button type="submit">Go Back</button>
+    </fieldset>
+  </form>
+</div>
+
+</body></html>

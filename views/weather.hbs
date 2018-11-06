@@ -1,27 +1,32 @@
-<form method="POST" action="/">
-    <table>
-        <tr>
-            <td>Address: </td>
-            <td><input type="text" name="address"></td>
-        </tr>
-        <tr>
-            <td>City: </td>
-            <td><input type="text" name="city"></td>
-        </tr>
-        <tr>
-            <td>State: </td>
-            <td><input type="text" name="state"></td>
-        </tr>
-        <tr>
-            <td>Zipcode: </td>
-            <td><input type="text" name="zipcode"></td>
-        </tr>
-        <tr>
-            <td>Country: </td>
-            <td><input type="text" name="country"></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="Submit"></td>
-        </tr>
-  </table>
-</form>
+<html lang="en" class="">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="container">
+  <form id="contact" action="/" method="post">
+    <h3>Weather Tracking</h3>
+    <h4>By Chien Nguyen</h4>
+    <fieldset>
+      <input placeholder="Address" type="text" tabindex="1" required="" name="address">
+    </fieldset>
+    <fieldset>
+      <input placeholder="City" type="text" tabindex="2" required="" name="city">
+    </fieldset>
+    <fieldset>
+      <input placeholder="State" type="text" tabindex="3" required="" name="state">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Zipcode" type="text" tabindex="4" required="" name="zipcode">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Country" type="text" tabindex="5" required="" name="country">
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+</body></html>
